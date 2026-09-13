@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Music Recommended System</title>
+
+        <link rel="stylesheet" href="C:\Music Recommended System\Css\index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>&#127925; Music Recommended System</h1>
+
+            <div class="artist">
+                <h2>select Artist</h2>
+
+                <select id="artistselected" onchange="selectArtist()">
+                    <option value="select the artist">select the artist</option>
+                    <option value="Anirudh Ravichander">Anirudh Ravichander</option>
+                    <option value="Harris Jayaraj">Harris Jayaraj</option>
+                    <option value="Hiphop Tamizha">Hiphop Tamizha</option>
+                    <option value="A.R. Rahman">A.R. Rahman</option>
+                    <option value="Sid Sriram">Sid Sriram</option>
+                </select>
+            </div>
+            
+            <div class="recommendation-Box">
+                <h1>Recommended Songs</h1>
+                <div id="songList">
+                    <p>
+                        select an artist to see rcommended songs
+                    </p>
+                </div>
+            </div>
+
+             <div class="player-box">
+
+            <h2 id="currentSong">
+                No Song Selected
+            </h2>
+
+            <audio id="audioPlayer"></audio>
+
+            <div class="controls">
+
+                <button onclick="previousSong()">
+                    &#9194; Previous
+                </button>
+
+                <button onclick="playSong()">
+                    &#9654; Play
+                </button>
+
+                <button onclick="pauseSong()">
+                    &#9208; Pause
+                </button>
+
+                <button onclick="nextSong()">
+                    Next &#9193;
+                </button>
+
+            </div>
+
+            <div class="like-box">
+
+                <button onclick="likeSong()">
+                    &#10084; Like Song
+                </button>
+
+                <br><br>
+
+                <a href="likesongs.html">
+                    &#10084; View Liked Songs
+                </a>
+
+            </div>
+
+            <div class="volume-box">
+
+                <label for="volumeControl">
+                    &#128266; Volume
+                </label>
+
+                <input
+                    type="range"
+                    id="volumeControl"
+                    min="0"
+                    max="1"
+                    step="0.1"
+                    value="1"
+                    onchange="changeVolume()"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+        <script src="C:\Music Recommended System\Javascript\index.js"></script>
+    </body>
+</html>

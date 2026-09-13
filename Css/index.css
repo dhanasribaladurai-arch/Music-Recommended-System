@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #263f32;
+    color:rgb(47, 51, 42);
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: rgb(151, 153, 117);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(186, 184, 184);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.artist,
+.recommendation-Box,
+.player-box {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color:beige;
+}
+
+.song {
+    padding: 12px;
+    margin: 8px 0;
+    background: #a2de74;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.song:hover {
+    background: #dddddd;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #030303;
+    color: rgb(208, 206, 206);
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.volume-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ================================
+   LIKE SONG
+================================ */
+
+.like-box {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.like-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #030303;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.like-box button:hover {
+    background: #555;
+}
+
+.like-box a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.like-box a:hover {
+    text-decoration: underline;
+}
+
+#volumeControl {
+    width: 200px;
+    margin-left: 10px;
+}
