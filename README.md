@@ -169,10 +169,10 @@ Home Page
 
 Add your screenshot here:
 
-![Home Page](Screenshot/homepage.png)
+![Home Page](screenshots/homepage.png)
 
 Liked Songs
-![Liked Songs](Screenshot/likesongspage.png)
+![Liked Songs](screenshots/likesongspage.png)
 
 ---
 
