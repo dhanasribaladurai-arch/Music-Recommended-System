@@ -42,20 +42,14 @@ Music Recommended System
 │
 ├── Css
 │   ├── index.css
-│   ├── login.css
-│   ├── register.css
 │   └── likesongs.css
 │
 ├── Html
 │   ├── index.html
-│   ├── login.html
-│   ├── register.html
 │   └── likesongs.html
 │
 ├── Javascript
 │   ├── index.js
-│   ├── login.js
-│   ├── register.js
 │   └── likesongs.js
 │
 └── songs
@@ -175,11 +169,10 @@ Home Page
 
 Add your screenshot here:
 
-![Home Page](Screenshot/home.png)
-Recommended Songs
-![Recommended Songs](Screenshot/recommendation.png)
+![Home Page](Screenshot/homepage.png)
+
 Liked Songs
-![Liked Songs](Screenshot/likesongs.png)
+![Liked Songs](Screenshot/likesongspage.png)
 
 ---
 
